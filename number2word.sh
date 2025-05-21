@@ -22,7 +22,7 @@ number2word() {
     local -a units=(zero one two three four five six seven eight nine)
     local -a teens=(ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen)
     local -a tens=(zero ten twenty thirty forty fifty sixty seventy eighty ninety)
-    local -a scales=("" thousand million billion trillion quadrillion quintillion sextillion septillion octillion nonillion decillion)
+    local -a scales=("" thousand, million, billion, trillion, quadrillion, quintillion, sextillion, septillion, octillion, nonillion, decillion,)
 
 
     if [[ "$full_mode" -eq 0 ]]; then
